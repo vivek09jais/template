@@ -63,28 +63,42 @@ hr {
 }
 
 @media (max-width:769px) {
-  .jumbotron h1 {
-    font-size: 41px;
+  .jumbotron h2 {
+    font-size: 20px;
   }
+  .jumbotron p{
+       font-size: 20px;
+       margin-bottom: -12px;
+    }
   .btn-lg {
-    font-size: 45px;
+    font-size: 38px;
   }
   .img-circle{
     margin-left: 41px !important;
   }
 }
 @media (max-width:425px){
-.jumbotron h1{
-  font-size: 21px;
+.jumbotron h2{
+  font-size: 20px;
   }
 .jumbotron p{
-     font-size: 17px;
+     font-size: 18px;
+     margin-top: 86px;
   }
 .btn-lg{
    font-size: 25px;
   }
   .contactUs h1{
     font-size: 40px !important;
+  }
+}
+@media (max-width:375px){
+  .jumbotron h2{
+    font-size: 20px;
+  }
+  .jumbotron p{
+    font-size: 13px;
+    margin-top: 95px;
   }
 }
 .caption{
