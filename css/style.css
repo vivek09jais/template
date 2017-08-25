@@ -1,62 +1,75 @@
 body {
   padding-top: 50px;
 }
-.navbar-brand{
+
+.navbar-brand {
   text-transform: uppercase;
   margin-top: 5px;
   font-size: 25px;
   font-weight: 400;
   opacity: 0.8;
 }
-.navbar{
+
+.navbar {
   background-color: #1d1e25;
 }
+
 .jumbotron {
   text-align: center;
-  background-image: url('../img/glenn-carstens-peters-282287.jpg');
+  background-image: url('../img/glenn-carstens-peters-282287_edd2bf6e255326948b952f0151351ae4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
 }
-.jumbotron:hover{
+
+.jumbotron:hover {
   opacity: 0.9;
 }
+
 .jumbotron h1 {
   margin-top: 0px;
   margin-bottom: 50px;
 }
+
 .jumbotron p {
   margin-top: 90px;
   margin-bottom: 50px;
   font-size: 25px;
 }
+
 .btn-lg {
   font-size: 36px;
 }
+
 .homepage {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .homepage h2 {
   text-transform: uppercase;
   font-size: 30px;
 }
-.homepage h3{
+
+.homepage h3 {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
+
 .homepage p {
   font-size: 23px;
   font-weight: 200;
   font-family: 'Source Sans Pro', sans-serif;
   padding-top: 20px;
 }
+
 hr {
   border-color: #347484;
   width: 170px;
   margin-top: 15px;
 }
+
 #involved {
   background-color: #f5f5f5;
   padding-bottom: 20px;
@@ -66,85 +79,93 @@ hr {
   .jumbotron h2 {
     font-size: 20px;
   }
-  .jumbotron p{
-       font-size: 20px;
-       margin-bottom: -12px;
-    }
+  .jumbotron p {
+    font-size: 20px;
+    margin-bottom: -12px;
+  }
   .btn-lg {
     font-size: 38px;
   }
-  .img-circle{
+  .img-circle {
     margin-left: 41px !important;
   }
 }
-@media (max-width:425px){
-.jumbotron h2{
-  font-size: 20px;
+
+@media (max-width:425px) {
+  .jumbotron h2 {
+    font-size: 20px;
   }
-.jumbotron p{
-     font-size: 18px;
-     margin-top: 86px;
+  .jumbotron p {
+    font-size: 18px;
+    margin-top: 86px;
   }
-.btn-lg{
-   font-size: 25px;
+  .btn-lg {
+    font-size: 25px;
   }
-  .contactUs h1{
+  .contactUs h1 {
     font-size: 40px !important;
   }
 }
-@media (max-width:375px){
-  .jumbotron h2{
+
+@media (max-width:375px) {
+  .jumbotron h2 {
     font-size: 20px;
   }
-  .jumbotron p{
+  .jumbotron p {
     font-size: 13px;
     margin-top: 95px;
   }
 }
-.caption{
+
+.caption {
   padding-top: 100px;
   color: #ffffff;
 }
-.caption p{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 25px;
 
+.caption p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
 }
 
-#carousel-example-generic{
+#carousel-example-generic {
   background-image: url("../img/isaacjsenior-52580.jpg");
   background-attachment: fixed;
   background-size: cover;
   opacity: 0.6;
 }
+
 .zoom {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
 }
 
 .transition {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
+
 .contactUs {
   background-color: #ffffff;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 50px;
 }
-.contactUs h1{
+
+.contactUs h1 {
   font-size: 50px;
   text-transform: uppercase;
 }
-.icondown{
+
+.icondown {
   color: #347484;
   letter-spacing: 20px;
 }
-.img-circle{
+
+.img-circle {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-left: 100px;
