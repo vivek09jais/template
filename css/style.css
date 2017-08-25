@@ -26,7 +26,9 @@ body {
   margin-bottom: 50px;
 }
 .jumbotron p {
+  margin-top: 90px;
   margin-bottom: 50px;
+  font-size: 25px;
 }
 .btn-lg {
   font-size: 36px;
@@ -107,15 +109,15 @@ hr {
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
 }
- 
+
 .transition {
-    -webkit-transform: scale(1.1); 
+    -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
 }
 .contactUs {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -134,7 +136,3 @@ hr {
   margin-left: 100px;
   opacity: 0.9;
 }
-
-
-
-
