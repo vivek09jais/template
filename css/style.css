@@ -1,0 +1,140 @@
+body {
+  padding-top: 50px;
+}
+.navbar-brand{
+  text-transform: uppercase;
+  margin-top: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.navbar{
+  background-color: #1d1e25;
+}
+.jumbotron {
+  text-align: center;
+  background-image: url('../img/glenn-carstens-peters-282287.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.jumbotron:hover{
+  opacity: 0.9;
+}
+.jumbotron h1 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.jumbotron p {
+  margin-bottom: 50px;
+}
+.btn-lg {
+  font-size: 36px;
+}
+.homepage {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.homepage h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.homepage h3{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+.homepage p {
+  font-size: 23px;
+  font-weight: 200;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 20px;
+}
+hr {
+  border-color: #347484;
+  width: 170px;
+  margin-top: 15px;
+}
+#involved {
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+
+@media (max-width:769px) {
+  .jumbotron h1 {
+    font-size: 41px;
+  }
+  .btn-lg {
+    font-size: 45px;
+  }
+  .img-circle{
+    margin-left: 41px !important;
+  }
+}
+@media (max-width:425px){
+.jumbotron h1{
+  font-size: 21px;
+  }
+.jumbotron p{
+     font-size: 17px;
+  }
+.btn-lg{
+   font-size: 25px;
+  }
+  .contactUs h1{
+    font-size: 40px !important;
+  }
+}
+.caption{
+  padding-top: 100px;
+  color: #ffffff;
+}
+.caption p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+
+}
+
+#carousel-example-generic{
+  background-image: url("../img/isaacjsenior-52580.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.6;
+}
+.zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.contactUs {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.contactUs h1{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.icondown{
+  color: #347484;
+  letter-spacing: 20px;
+}
+.img-circle{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+  opacity: 0.9;
+}
+
+
+
+
